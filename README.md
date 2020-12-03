@@ -2,6 +2,7 @@
 Using Spark with Python(Spark SQL) to transform the big data. For this exercise, we are using stand alone system.
 
 <b>Note</b>: This exercise is a part of real world example of Retail Channel Management, this was asked in 1 of the Data Engineering inteviews recently. Following are the requirements for this task, and my given solutions accordingly.
+
 -Saurabh Sahu
 
 ## Scenario
@@ -68,7 +69,7 @@ I am using Spark with Python (PySpark), it has wide variety of functions and tec
 For, scaling big data file (with >1 Trillion events), I would either partition the dataset into sets of billion events or divide the files based on file size. Usually the input files come in batches, and are placed in a common path. Using spark, we can read the files directly, and process it using Spark.
 Spark is in-memory file processing system, and spark sql can effectively optimize the query using Catalyst.
 
-/~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 ### Part 2 - Infrastructure
 
@@ -171,4 +172,5 @@ Spark (PySpark) with python provides flexibility and advantages while working wi
 We can use other data frames as well, as per the requirements.
 This is a sample project, completely built from scratch, so there is a scope for improvements.
 If you have any suggestions for improvement or questions, please contact me.
+
 Thank you. 
